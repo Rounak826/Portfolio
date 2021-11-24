@@ -1,0 +1,181 @@
+.skills{
+    background-color: #FAFBFD;
+    height: 100vh;
+    padding: 0 5em;
+    grid-area:skills;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .skills .icons{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .skills .icons .icon{
+  margin-top: 0;  
+  margin: 30px;
+  filter: invert(97%) sepia(2%) saturate(5934%) hue-rotate(187deg) brightness(87%) contrast(93%);
+  
+    
+  }
+  .react:hover{
+    filter: invert(66%) sepia(78%) saturate(334%) hue-rotate(178deg) brightness(99%) contrast(97%);
+  }
+  .html{
+    filter: invert(66%) sepia(78%) saturate(334%) hue-rotate(178deg) brightness(99%) contrast(97%);
+  }
+  .skills .exp{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+  }
+  
+  
+  .skills .exp .head{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+  }
+  .skills .exp .head .links{
+    display: flex;
+    flex-direction: row;
+  
+    
+  }
+  .skills .exp .head .links .link{
+    background-color:#f6f6f6;
+    color: #474F64;
+    padding: 1.5rem;
+    border: 1px #7562E0 solid;
+    border-radius: 0.3rem;
+    margin: 0 1rem;
+    box-shadow: 5px 10px 20px 0px rgba(0,0,0,0.15);
+    transition: all 0.3s linear;
+  }
+  .skills .exp .head .links .link:hover{
+    background-color:#7562E0;
+    color: aliceblue;
+    box-shadow: 5px 10px 20px 0px rgba(117,98,224,0.62);
+  -webkit-box-shadow: 5px 10px 20px 0px  rgba(117,98,224,0.62);
+  -moz-box-shadow: 5px 10px 20px 0px  rgba(117,98,224,0.62);
+  }
+  .skills .exp .head .links .link:hover h3{
+    color: whitesmoke;
+  }
+  .skills .exp .head .links .link h3{
+    color: #7562E0;
+  }
+  .skills .exp .head .links .link a{
+    text-decoration: none;
+    color: #c0b7f1;
+    transition: all 0.3s linear;
+  }
+  .skills .exp .head .links .link a:hover{
+  
+    color: #ffff;
+    
+  }
+  .skills .exp .head .links .link span{
+    margin: 0 5px;
+  }
+  .skills .exp .head .links .link hr{
+    height: 2px;
+  }
+  .skills .exp .head .links .link .skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: left;
+    text-align: left;
+  }
+  
+  @media only screen and (max-width: 450px) {
+    .skills{
+      background-color: #FAFBFD;
+      height: 100vh;
+      padding: 0 1em;
+      grid-area:skills;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      align-content: center;
+    }
+    .skills .icons{
+      margin-top: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    
+    .skills .icons .icon{
+    margin-top: 0;  
+    margin: 0px;
+    filter: invert(97%) sepia(2%) saturate(5934%) hue-rotate(187deg) brightness(87%) contrast(93%);
+    margin: 10px;  
+    }
+    .fa-9x{
+      font-size: 4.5em;
+    }
+    .skills .exp{
+      margin-top: 5rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    
+    }
+    
+    
+    .skills .exp .head{
+      width: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    
+    }
+    .skills .exp .head .links{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    
+      
+    }
+    .skills .exp .head .links .link{
+      background-color:#f6f6f6;
+      color: #474F64;
+      padding: 0.6rem;
+      border: 1px #7562E0 solid;
+      border-radius: 0.3rem;
+      margin: 0.5rem 0.5rem;
+      box-shadow: 5px 10px 20px 0px rgba(0,0,0,0.15);
+      transition: all 0.3s linear;
+    }
+
+    .link h3{
+      font-size: 0.9rem;
+    }
+    .link p{
+      display: none;
+    }
+    .skills .exp .head .links .link a{
+      font-size: 0.8rem;
+    }
+    .expand{
+      width: 100%;
+    }
+    .expand h3{
+      font-size: 1.2rem;
+    }
+
+  }

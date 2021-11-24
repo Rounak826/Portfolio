@@ -1,0 +1,258 @@
+
+.about .details{
+    padding:0rem 5rem;
+    padding-top: 2rem;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    margin-bottom: 10rem;
+    
+  }
+  .about .details .me{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px #9f8fff solid;
+    
+  }
+  .about .details h2{
+    margin-bottom: 1rem;
+  }
+  .about .details .me .info p{
+    font-size: 1.1rem;
+    
+  }
+  .about .details .stats{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .about .details .stats .stat{
+    padding-left: 3rem;
+    width: 100%;
+    margin-bottom: 1.8rem;
+  }
+  .about .details .stats .stat .progress{
+    width: 100%;
+  }
+  .about .EdEx{
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #FAFBFD;
+    width: 100%;
+  
+  }
+  .about .EdEx p{
+    color: #71A2DA;
+  }
+  .about .EdEx h1{
+    margin-bottom: 2rem;
+  }
+  .about .EdEx .education{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    border-right: 1px #9f8fff solid;
+  }
+  .about .EdEx .experience{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    
+  }
+  .about .hobby{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f6f6f6;
+    width: 100%;
+  }
+  .about .hobby .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    
+  }
+  .about .hobby .text p{
+    font-size: 1.2rem;
+    margin-top: 4rem;
+  }
+  .about .hobby  .image{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5rem;
+  }
+  .about .hobby  .image img{
+    width: 70%;
+  }
+  .about{
+    padding-top: 3rem;
+    background-color: #f1f1f1;
+    grid-area: about;
+    display: grid;
+    grid-template-areas:
+          
+          "details details"
+          "EdEx EdEx"
+          "hobby hobby";
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .about h1,h2{
+    color: #7562E0;
+  }
+
+  @media only screen and (max-width: 450px) {
+    .about{
+      margin: 0;
+      padding: 0;
+    }
+    .about .details{
+      padding:0rem 1rem;
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: fit-content;
+      width: 100%;
+      margin-bottom: 20px;
+      background-color: #f1f1f1;
+      
+    }
+    .about .details .me{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-right: none;
+      border-bottom: 2px #9f8fff solid;
+      
+    }
+    .about .details h2{
+      margin-bottom: 0.8rem;
+    }
+    .about .details .me .info p{
+      font-size: 0.9rem;
+      
+    }
+    .about .details .stats{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+    }
+    .about .details .stats .stat{
+      padding-left: 0rem;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    .about .details .stats .stat .progress{
+      width: 100%;
+    }
+    .about .EdEx{
+      padding: 0.5rem 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      background-color: #FAFBFD;
+    
+    }
+    .EdEx h3{
+      font-size: 1rem;
+    }
+    .about .EdEx p{
+      color: #71A2DA;
+      font-size: 0.8rem;
+    }
+    .about .EdEx h1{
+      margin-bottom: 2rem;
+      font-size: 1.4rem;
+    }
+    .about .EdEx .education{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-left: 0.8rem;
+      border-right: 1px #9f8fff solid;
+    }
+    .about .EdEx .experience{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-left: 0.8rem;
+      padding-right: 0.3rem;
+      
+    }
+    .about .hobby{
+      padding-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 100%;
+      background-color: #f6f6f6;
+    }
+    .about .hobby .text{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding-left: 0.8rem;
+      
+    }
+    .about .hobby .text p{
+      font-size: 1rem;
+      margin-top: 2rem;
+    }
+    .about .hobby  .image{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-left: 0rem;
+    }
+    .about .hobby  .image img{
+      width: 80%;
+    }
+    .about{
+      padding-top: 3rem;
+      height: 100%;
+      grid-area: about;
+      display: grid;
+      grid-template-areas:
+            
+            "details details"
+            "EdEx EdEx"
+            "hobby hobby";
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .about h1,h2{
+      color: #7562E0;
+    }
+  }

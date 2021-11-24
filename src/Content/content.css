@@ -1,0 +1,188 @@
+.content{
+    background-color: #f1f1f1;
+    padding: 0 5em;
+    grid-area: content;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    
+  }
+  .content .empty{
+    grid-area: empty;
+    width: 20px;
+    
+  }
+  .content .info{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+  
+  
+  }
+  .content .info .intro{
+    font-family: 'Noto Serif', serif;
+  
+    
+    
+  }
+  .content .info .intro h2{
+    font-size: 50px;
+    line-height: 4.5rem;
+  }
+  .content .info .desc{
+    width: 50%;
+  }
+  .content .info .desc p{
+    font-size: 20px;
+  }
+  .content .info .button button{
+    background-color: #7562E0 ;
+    font-size: 20px;
+    width: 10rem;
+    transition: all 0.3s linear;
+  }
+  .content .info .button button:hover{
+    background-color: #9f8fff;
+  }
+  .content .media{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  
+  .content .media img{
+    width: 60%;
+  }
+  .content .social{
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 4.5rem;
+  }
+  .content .social img{
+    width: 30px;
+    height: 30px;
+  }
+  .soc{
+    transition: all 0.2s linear;
+  }
+  .insta:hover{
+    filter: invert(97%) sepia(72%) saturate(4614%) hue-rotate(277deg) brightness(93%) contrast(117%);
+  }
+  .meta:hover{
+    filter: invert(41%) sepia(89%) saturate(1224%) hue-rotate(203deg) brightness(96%) contrast(90%);
+  }
+  .twitter:hover{
+    filter: invert(84%) sepia(24%) saturate(1315%) hue-rotate(181deg) brightness(106%) contrast(103%);
+  }
+  .github:hover{
+    filter: invert(75%) sepia(13%) saturate(555%) hue-rotate(78deg) brightness(86%) contrast(82%);
+  }
+  .mail:hover{
+    filter: invert(60%) sepia(94%) saturate(1783%) hue-rotate(317deg) brightness(104%) contrast(114%);
+  }
+
+  @media only screen and (max-width: 450px) {
+    .content{
+
+      background-color: #f1f1f1;
+      padding: 0 2em;
+      padding-top: 1rem;
+      grid-area: content;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+      align-content: space-around;
+      flex-wrap: wrap-reverse;
+      width: 100%;
+      height: 100vh;
+      overflow-y: auto;
+      
+    }
+    .content .empty{
+      display: none;
+      
+    }
+    .content .info{
+      width: 100%;
+      height: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      
+    
+    
+    }
+    .content .info .intro{
+      font-family: 'Noto Serif', serif;
+    
+      
+      
+    }
+    .content .info .intro h2{
+      font-size: 35px;
+      line-height: 2rem;
+    }
+    .content .info .desc{
+      display: none;
+    }
+    .button{
+      
+      display: flex;
+      justify-content: center;
+      align-content: center;
+
+    }
+    .content .info .button button{
+      background-color: #7562E0 ;
+      font-size: 16px;
+      width: 10rem;
+      margin: 0;
+    }
+    .btn{
+      margin: 0;
+    }
+    .btn .btn-primary{
+      margin: 0;
+    }
+    .content .media{
+      
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+      
+    }
+    
+    .content .media img{
+      width: 90%;
+    }
+    .content .social{
+      width: 10%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-bottom: 0;
+    }
+    .content .social img{
+      width: 25px;
+      height: 30px;
+    }
+
+
+  }
